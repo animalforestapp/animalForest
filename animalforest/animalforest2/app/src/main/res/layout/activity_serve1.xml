@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    tools:context=".serve1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:src="@drawable/hogam"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_marginBottom="10dp">
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/up1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/plus1"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageButton
+                android:id="@+id/up2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/plus2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp" />
+
+
+            <ImageButton
+                android:id="@+id/up3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/plus3"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageButton
+                android:id="@+id/up4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/plus4"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_marginTop="30dp">
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/down2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/minus2"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageButton
+                android:id="@+id/down3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/minus3"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageButton
+                android:id="@+id/down5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/minus5"
+                android:layout_marginBottom="10dp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

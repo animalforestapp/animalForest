@@ -1,0 +1,2 @@
+rootProject.name='animalforest2'
+include ':app'

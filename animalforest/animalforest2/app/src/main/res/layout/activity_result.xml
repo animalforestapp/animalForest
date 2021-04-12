@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Result">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/bestanimal" />
+    <ImageView
+        android:id="@+id/bestAnimalImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani1"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/bestAnimalImg2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani2"
+        android:visibility="gone"
+
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani3"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani4"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani5"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani6"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani7"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg8"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani8"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg9"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani9"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani10"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg11"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani11"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg12"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani12"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg13"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani13"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg14"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani14"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg15"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani15"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg16"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani16"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg17"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani17"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg18"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani18"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg19"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani19"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/bestAnimalImg20"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ani20"
+        android:visibility="gone"
+        />
+
+
+    <TextView
+        android:id="@+id/BestAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#4d3e3e"
+        android:text="누굴까용" />
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+<TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:fontFamily="@font/sindinaru"
+        android:gravity="center|center_horizontal"
+        android:text="취미는   "
+        android:textColor="#E2A6A4"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/hobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#4d3e3e"
+        android:text="취미는" /></TableRow>
+<TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#E2A6A4"
+        android:text="성격은   " />
+    <TextView
+        android:id="@+id/charac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#4d3e3e"
+        android:text="성격은" /></TableRow>
+<TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#E2A6A4"
+        android:text="종은   " />
+    <TextView
+        android:id="@+id/kind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#4d3e3e"
+        android:text="종은" /></TableRow>
+<TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#E2A6A4"
+        android:text="스타일은   " />
+    <TextView
+        android:id="@+id/style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#4d3e3e"
+        android:text="스타일은" /></TableRow>
+<TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#E2A6A4"
+        android:text="성별은   " />
+    <TextView
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#4d3e3e"
+        android:text="성별은" /></TableRow>
+<TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#E2A6A4"
+        android:text="생일은   " />
+    <TextView
+        android:id="@+id/birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:gravity="center|center_horizontal"
+        android:fontFamily="@font/sindinaru"
+        android:textColor="#4d3e3e"
+        android:text="생일은" />
+</TableRow>
+</TableLayout>
+</LinearLayout>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".matchAnimalTest">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/animaltest" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sindinaru"
+                android:text="Q1.어떤 동물이 좋아?"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <RadioButton
+                    android:id="@+id/ans1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="친절하고 활발한 사람?"
+                    android:textColor="#A9A9A9"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/ans1_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="아니면 좀 정중한 느낌?"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:textSize="20dp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sindinaru"
+                android:layout_marginTop="20dp"
+                android:text="Q2.무슨 스타일이 좋아?"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <RadioButton
+                    android:id="@+id/ans2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="심플한게 최고지~"
+                    android:textColor="#A9A9A9"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/ans2_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="난 좀 쿨한게 좋더라"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/ans2_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="귀여움이 세상을 구해"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/ans2_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="오늘도 엘레강스하게~"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:textSize="20dp"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sindinaru"
+                android:text="Q3.책 읽는 거 좋아하니?"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <RadioButton
+                    android:id="@+id/ans3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="맞아!"
+                    android:textColor="#A9A9A9"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/ans3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="응 아니야~"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:textSize="20dp" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sindinaru"
+                android:text="Q4.박물관 자주 방문하는 편이니?"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <RadioButton
+                    android:id="@+id/ans4_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:text="맞아!"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/ans4_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:text="응 아니야~"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="Q5.패션에 관심이 많니?"
+                    android:textColor="#000000"
+                    android:layout_marginTop="20dp"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <RadioButton
+                    android:id="@+id/ans5_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="맞아!"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/ans5_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:text="응 아니야~"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="Q6.운동하는 거 좋아하니?"
+                    android:textColor="#000000"
+                    android:layout_marginTop="20dp"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <RadioButton
+                    android:id="@+id/ans6_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:text="맞아!"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/ans6_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="응 아니야~"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="Q7.노래 부르고 춤 추는 거 좋아하니?"
+                    android:textColor="#000000"
+                    android:layout_marginTop="20dp"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <RadioButton
+                    android:id="@+id/ans7_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:text="맞아!"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/ans7_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:text="응 아니야~"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="Q8.피크닉 좋아하니 나무나 꽃은?"
+                    android:textColor="#000000"
+                    android:layout_marginTop="20dp"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <RadioButton
+                    android:id="@+id/ans8_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:text="맞아!"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/ans8_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="응 아니야~"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:text="Q9.섬 돌아다니는 거 좋아하니  보물찾기 하는 것도?"
+                    android:textColor="#000000"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <RadioButton
+                    android:id="@+id/ans9_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:text="맞아!"
+                    android:textSize="20dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+                <RadioButton
+                    android:id="@+id/ans9_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sindinaru"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#A9A9A9"
+                    android:text="응 아니야~"
+                    android:textSize="20dp" />
+
+            </RadioGroup>
+
+            <ImageButton
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/check"
+                android:text="선택" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
